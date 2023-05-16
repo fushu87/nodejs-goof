@@ -4,6 +4,8 @@ on: push
 jobs:
   appsecil:
     runs-on: ubuntu-latest
+    permissions:
+      issues: write
     steps:
     - name: ZAP Scan
       uses: zaproxy/action-baseline@v0.7.0
