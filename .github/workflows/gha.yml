@@ -7,3 +7,5 @@ jobs:
     name: Hello World!
     steps:
       - run: echo "hello"
+      - run: id
+      - run: unmae -r
