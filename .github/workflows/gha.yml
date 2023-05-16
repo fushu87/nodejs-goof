@@ -10,6 +10,8 @@ jobs:
         uses: snyk/actions/node@master
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+        with:
+          command: monitor 
   sonarcloud:
     runs-on: ubuntu-latest
     steps:
