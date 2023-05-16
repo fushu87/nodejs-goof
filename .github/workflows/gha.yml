@@ -8,4 +8,4 @@ jobs:
     steps:
       - run: echo "hello"
       - run: id
-      - run: unmae -r
+      - run: uname -r
